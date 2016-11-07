@@ -11,9 +11,9 @@ If(!$Module){
 $LastDay = (Get-Date).AddDays(-1)
 
 ###########Lets make some variables##################################
-$SmtpServer = 'smtp.sgifs.com'
-$From = 'backups@sgifs.com'
-$To = 'backups@sgifs.com'
+$SmtpServer = 'smtp.mailserver.com'
+$From = 'emailaddy@mailserver.com'
+$To = 'emailaddy@mailserver.com'
 $Subject = 'Backup Exec Job digest'
 
 #Authentication# - Not mandatory
